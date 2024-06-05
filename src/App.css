@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.app {
+  display: flex;
+}
+
+.form-section {
+  width: 50%;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+}
+
+.resume-preview {
+  width: 50%;
+  padding: 20px;
+}
+
+.template1 {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.template1 h1 {
+  font-size: 2em;
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.template1 p {
+  margin: 5px 0;
+}
+
+.template1 h2 {
+  font-size: 1.5em;
+  border-bottom: 1px solid #666;
+  padding-bottom: 5px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.template1 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.template1 li {
+  margin-bottom: 10px;
+}
+.template2{
+  background: blue;
+}
+.template3{
+  background: greenyellow;
+}
